@@ -1,0 +1,10 @@
+psycopg2
+numpy
+pandas
+tweepy
+simplejson
+textblob
+urlopen
+sqlalchemy
+scrapy
+

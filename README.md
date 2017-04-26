@@ -34,17 +34,16 @@ Consideraciones
 
 8. Se recomienda desplegar el producto en la nube (Microsoft Azure) por lo cual considerar un costo de uso de procesamiento y almacenamiento en la nube.
 
-##DIAGRAMA DE COMPONENTES
+### Diagrama de Componentes
 
 ![Web Data Discovery (WDD)](images/InventariovsCompetencia.png)
 
-##PIPE LINE
+### Pipe Line
 
 ![Web Data Discovery (WDD)](images/WebDataDiscovery.png)
 
-### DEFINICIÓN DEL AMBIENTE
 
-
+### Estructura del Ambiente
 
 Donde tenemos la siguiente estructura:
 
@@ -138,7 +137,7 @@ Welcome to
 Type --help for more information.
 
 ```
-__NOTA:__ para trabajar de forma interactiva podemos ir al sitio de ![Jupyter](http://localhost:8888/tree/notebook#)
+__NOTA:__ para trabajar de forma interactiva podemos ir al sitio de ![Jupyter](http://localhost:8888)
 
 #### Adrián Vázquez
 Maestría Ciencia de Datos ITAM.
