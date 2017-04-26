@@ -124,7 +124,6 @@ incomfinal_qa-incom-scrapy_1    /docker-entrypoint.sh postgres   Up       0.0.0.
 
 1. Vía lineade comandos tenemos `docker exec -it incomfinal_qa-incom-jupyter_1  /bin/bash`
 2. entramos al directorio donde se ubica spark `/usr/local/spark` y ejecutamos `./bin/spark-shell`
-3. 
 
 ```
 Welcome to
@@ -140,7 +139,6 @@ Type --help for more information.
 
 4. Para trabajar de forma interactiva podemos ir al sitio `http://localhost:8888` en nuestro navegador
 
-__NOTAS__
 
 
-#### by ADVP
+#### by ADVP (radianstk@gmail.com)
