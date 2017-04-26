@@ -36,11 +36,11 @@ Consideraciones
 
 ##DIAGRAMA DE COMPONENTES
 
-[Web Data Discovery (WDD)](images/InventariovsCompetencia.png)
+![Web Data Discovery (WDD)](images/InventariovsCompetencia.png)
 
 ##PIPE LINE
 
-[Web Data Discovery (WDD)](images/WebDataDiscovery.png)
+![Web Data Discovery (WDD)](images/WebDataDiscovery.png)
 
 ### DEFINICIÓN DEL AMBIENTE
 
@@ -87,7 +87,6 @@ qa-incom-jupyter:
 __drwxrwxr-x 6 radianv radianv 4096 jun 26 23:23 docker-images__
 
 ```
-total 16
 drwxrwxr-x 2 radianv radianv 4096 abr 25 22:00 base
 drwxrwxr-x 2 radianv radianv 4096 abr 25 22:00 data
 drwxrwxr-x 2 radianv radianv 4096 abr 25 22:02 jupyter
@@ -95,21 +94,12 @@ drwxrwxr-x 2 radianv radianv 4096 abr 25 22:03 scrapy
 
 ```
 
-3. Carpeta para poner la documentación del proyecto
-__drwxrwxr-x 2 radianv radianv 4096 jul 10 02:09 documentacion__
-	
--rw-rw-r-- 1 radianv radianv  520 jun 24 03:19 README.md
-	
-
-4. Carpeta para poner shell en caso de utilizarlos
-__drwxrwxr-x 3 radianv radianv 4096 jun 30 23:51 shell__
-
 
 5. Carpeta donde tendremos el codigo de los spiders que vamos a utilizarlo
 __drwxrwxr-x 7 radianv radianv 4096 jul  9 23:25 spider__
 
 
-### INCIALIZACIÓN DEL AMBIENTE
+## INCIALIZACIÓN DEL AMBIENTE
 
 Validamos e Inicializamos el ambiente via `docker-compose up -d` para lista los servicios que usaremos, para este caso tenemos 3:
 
@@ -126,13 +116,12 @@ incomfinal_qa-incom-scrapy_1    /docker-entrypoint.sh postgres   Up       0.0.0.
 * jupyter_1: procesamiento de datos y algoritmos de agrupación con Spark 1.6
 * scrapy_1: motor de scrapeo y almacenamiento en psotgreSQL
 
-### NOS CONECTAMOS AL AMBIENTE POSTGRES
+## NOS CONECTAMOS AL AMBIENTE POSTGRES
 
 
-![UNDER CONSTRUCTION](https://www.google.com.mx/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjg-JaNlMHTAhWCLyYKHRyOCh4QjRwIBw&url=http%3A%2F%2Fwww.wauchopeshowsociety.com.au%2Fpage-under-construction.html&psig=AFQjCNG9_q7CU1LTVJq8oYDkhiCmwNaFsw&ust=1493262945520435)
+![UNDER CONSTRUCTION](images/underconstruction.png)
 
-
-### NOS CONECTAMOS AL AMBIENTE SPARK
+## NOS CONECTAMOS AL AMBIENTE SPARK
 
 1. Vía lineade comandos tenemos `docker exec -it incomfinal_qa-incom-jupyter_1  /bin/bash`
 2. entramos al directorio donde se ubica spark `/usr/local/spark` y ejecutamos `./bin/spark-shell`
@@ -153,4 +142,3 @@ __NOTA:__ para trabajar de forma interactiva podemos ir al sitio de ![Jupyter](h
 
 #### Adrián Vázquez
 Maestría Ciencia de Datos ITAM.
-
