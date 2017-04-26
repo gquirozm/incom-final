@@ -1,0 +1,25 @@
+qa-incom-data:
+  build: docker-images/data
+  volumes:
+    - /data
+qa-incom-scrapy:
+  build: docker-images/scrapy
+  ports:
+    - "5432:5432"
+  volumes_from:
+    - qa-incom-data
+  env_file: .env
+
+qa-incom-jupyter:
+  build: docker-images/jupyter
+  hostname: qa-incom-jupyter
+
+  links:
+    - qa-incom-scrapy
+
+  ports:
+    - 8888:8888
+
+  volumes_from:
+    - qa-incom-data
+
