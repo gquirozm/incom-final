@@ -92,7 +92,7 @@ drwxrwxr-x 2 radianv radianv 4096 abr 25 22:02 jupyter
 drwxrwxr-x 2 radianv radianv 4096 abr 25 22:03 scrapy
 
 ```
-
+**ver archivo** [docker-file Jupyter](docker-images/jupyter/Dockerfile)
 
 5. Carpeta donde tendremos el codigo de los spiders que vamos a utilizarlo
 __drwxrwxr-x 7 radianv radianv 4096 jul  9 23:25 spider__
@@ -137,7 +137,10 @@ Welcome to
 Type --help for more information.
 
 ```
-__NOTA:__ para trabajar de forma interactiva podemos ir al sitio de ![Jupyter](http://localhost:8888)
 
-#### Adrián Vázquez
-Maestría Ciencia de Datos ITAM.
+4. Para trabajar de forma interactiva podemos ir al sitio `http://localhost:8888` en nuestro navegador
+
+__NOTAS__
+
+
+#### by ADVP
