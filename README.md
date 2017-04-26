@@ -36,12 +36,11 @@ Consideraciones
 
 ### Diagrama de Componentes
 
-![Web Data Discovery (WDD)](images/InventariovsCompetencia.png)
+![Web Data Discovery (WDD)](images/WebDataDiscovery.png)
 
 ### Pipe Line
 
-![Web Data Discovery (WDD)](images/WebDataDiscovery.png)
-
+![Web Data Discovery (WDD)](images/InventariovsCompetencia.png)
 
 ### Estructura del Ambiente
 
